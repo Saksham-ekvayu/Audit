@@ -16,6 +16,7 @@ export function CustomFrameworkProvider({ children }) {
   const [isBuilderOpen, setIsBuilderOpen] = useState(false)
   const [isAddingFromFramework, setIsAddingFromFramework] = useState(false)
   const [navigationCallback, setNavigationCallback] = useState(null)
+  
 
   // Add controls from a framework
   const addControls = (controls, frameworkInfo) => {
